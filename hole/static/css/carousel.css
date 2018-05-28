@@ -1,64 +1,59 @@
-html, body{ background-color:#dddddd; }
+html, body{ background-color:#DDDDDD; }
 
 body
-{
-	/*background-image: url('../images/background.jpg');*/
-	background-repeat: no-repeat;
-	background-position: top center;
-	width:100%;
-	background-size:cover;
+{	width:100%;
+	/*background-size:cover;*/
 	height:100%;
 	min-height:1000px;
 	overflow:hidden;
-	font-family: 'quicksandlight', Helvetica, Arial;
-	color:#FFFFFF;
-	text-shadow: -1px -1px 4px rgba(0, 0, 0, .35);
+	text-shadow: -2px -2px 5px rgba(0, 0, 0, .55);
+	text-decoration-color: #5a6268;
     filter: dropshadow(color=#000000, offx=1, offy=1);
 }
 
-header
-{
+/*header*/
+/*{*/
 
-	margin-top:30px;
-	position:absolute;
-	z-index:5;
-	width:420px;
-	padding-top:10px;
-	padding-bottom:10px;
+	/*margin-top:30px;*/
+	/*position:absolute;*/
+	/*z-index:5;*/
+	/*width:420px;*/
+	/*padding-top:10px;*/
+	/*padding-bottom:10px;*/
 
-}
+/*}*/
 
-h1{
+/*h1{*/
 
-	font-size:36px;
-	letter-spacing:-2.5px;
-	margin-left:30px;
-}
+	/*font-size:36px;*/
+	/*letter-spacing:-2.5px;*/
+	/*margin-left:30px;*/
+/*}*/
 
-h3{
+/*h3{*/
 
-	font-size:16px;
-	letter-spacing:-1.5px;
-	margin-top:5px;
-	margin-left:35px;
-}
+	/*font-size:16px;*/
+	/*letter-spacing:-1.5px;*/
+	/*margin-top:5px;*/
+	/*margin-left:35px;*/
+/*}*/
 
-#fps
-{
-	margin-top:5px;
-	margin-left:35px;
-}
+/*#fps*/
+/*{*/
+	/*margin-top:5px;*/
+	/*margin-left:35px;*/
+/*}*/
 
-a
-{
-	color:rgba( 255, 255, 255, .65 );
-	text-decoration: none;
-}
+/*a*/
+/*{*/
+	/*color:rgba( 221, 221, 221, .65 );*/
+	/*text-decoration: none;*/
+/*}*/
 
-a:hover
-{
-	color:rgba( 255, 255, 255, 1 );
-}
+/*a:hover*/
+/*{*/
+	/*color:rgba( 221, 221, 221, 1 );*/
+/*}*/
 
 /* hardware accelatator class */
 	.trans3d
@@ -72,10 +67,10 @@ a:hover
 		transform-style:preserve-3d;
 		transform: translate3d(0, 0, 0);
 
-		/*-webkit-backface-visibility: hidden;
-		-moz-backface-visibility: hidden;
-		-ms-backface-visibility:hidden;
-		backface-visibility:hidden;*/
+		/*-webkit-backface-visibility: hidden;*/
+		/*-moz-backface-visibility: hidden;*/
+		/*-ms-backface-visibility:hidden;*/
+		/*backface-visibility:hidden;*/
 	}
 
 	#contentContainer
@@ -117,8 +112,8 @@ a:hover
 		width:320px;
 		height:130px;
 		position:absolute;
-		background-color:rgba(255, 255, 255, .75);
-		border:10px solid rgba(255, 255, 255, .5);
+		background-color: rgba(221, 221, 221, 0.75);
+		/*border:10px solid rgba(255, 255, 255, .5);*/
 		color:aqua;
 		font-size:72px;
 		left:50%;
@@ -126,6 +121,6 @@ a:hover
 		margin-left:-160px;
 		margin-top:-90px;
 		text-align:center;
-		padding-top:50px;
+		/*padding-top:50px;*/
 
 	}
